@@ -1,0 +1,14 @@
+<h1>Connexion</h1>
+<mat-list class="formulaire">
+    <form>
+      <mat-form-field>
+        <input matInput #login placeholder="Login">
+      </mat-form-field>
+        <br>
+      <mat-form-field>
+        <input matInput #password placeholder="Mot de passe" >
+      </mat-form-field>
+        <br>
+      <button mat-raised-button color="primary" (click)="connexion(login, password)">Connexion</button>
+    </form>
+</mat-list>
